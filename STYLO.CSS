@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: white;
+}
+header{
+	border-bottom: 2px solid black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 0;
+	background-color: white;
+}
+.titulo{
+	font-size: 40px;
+	color: blue;
+	letter-spacing: 3px;
+}
+.itens-cabeçalho{
+	text-decoration: none;
+	color: red;
+	padding: 0 20px;
+	font-weight: 600;
+	font-size: 19px;
+	transition: .3s;
+}
+.itens-cabeçalho:hover{
+	color: rgb(190, 190, 202);
+}
+#id-item{
+	text-decoration: none;
+	color: blue;
+	padding: 10px 20px;
+	border: blue 2px solid;
+	border-radius: 15px 0;
+	font-weight: 500;
+	transition: .3s;
+}
+#id-item:hover{
+	border-radius: 0 15px;
+	background-color: rgb(0, 0, 0);
+	color: blue;
+	font-weight: 500;
+}
+h2{
+	font-family: 'open sans', ;
+	font-size: 60px;
+	text-align: center;
+	color: red;
+	margin-top: 15px;
+}
+.spn-main{
+	color: blue;
+	letter-spacing: 3px;
+	font-family: open sans, ;
+}
+main{
+	border-bottom: 2px solid blue;
+	display: flex;
+	justify-content: space-around;
+	padding: 30px 40px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 50%;
+}
+.titulo-principal{
+	font-size: 50px;
+	font-family: 'open sans' sans-serif;
+	color: RED;
+}
+.fortaleza{
+	font-size: 40px;
+	color: red;
+}
+.texto{
+	font-family: 'open sans', sans-serif;
+	font-size: 20px;
+	font-weight: 600px;
+	margin-top: 5px;
+	color: blue;
+}
+#rede-social{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	font-size: 30px;
+	font-family: 'bebas Neue';
+	color: red;
+}
+.icon{ 
+	width: 25px;
+	margin-left: 6px;
+}
+.avaliar{
+	margin-top: 25px;
+}
+.avaliação{
+	text-decoration: none;
+	font-size: 15px;
+	margin-top: 100px;
+	padding: 10px 15px;
+	color: white ;
+	background-color: blue;
+	border-radius: 10px 0;
+	font-weight: 600;
+	font-family: 'poppins', sans-serif;
+	transition: .3s;
+}
+.avaliação:hover{
+	background-color: rgb(0, 0, 0);
+	border-radius: 0 10px;
+	color: blue;
+
+}
+.imagem-principal{
+	width: 420px;
+	
+}
+footer{
+	background-color: white;
+	padding-top: 10px;
+}
+.spn-footer{
+	color: blue;
+	font-family: open sans;
+}
+.copy{
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: 'poppins' sans-serif;
+	color: red;
+}
